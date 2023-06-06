@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import Kingfisher
 
 class FoodCollectionViewCell: UICollectionViewCell {
     
@@ -14,25 +15,32 @@ class FoodCollectionViewCell: UICollectionViewCell {
         let view = UIView()
         view.backgroundColor = .white
         view.layer.cornerRadius = 30
+        
         return view
     }()
     
     private var image: UIImageView = {
         let view = UIImageView()
         view.image = UIImage(named: "romaFoodImage")
+        view.contentMode = .scaleToFill
+        view.layer.cornerRadius = 50
+        view.layer.masksToBounds = true
+        view.clipsToBounds = true
         return view
     }()
     
     private var nameLabel: UILabel = {
         let view = UILabel()
         view.text = "Tony Roma’s"
-        view.font = UIFont(name: "Poppins-Bold", size: 16)
+        view.numberOfLines = 0
+        view.font = UIFont(name: "Poppins-Bold", size: 14)
         return view
     }()
     
     private var typeLabel: UILabel = {
         let view = UILabel()
         view.text = "Ribs & Steaks"
+        view.numberOfLines = 0
         view.font = UIFont(name: "Poppins-Light", size: 10)
         return view
     }()
@@ -68,11 +76,11 @@ class FoodCollectionViewCell: UICollectionViewCell {
         
         nameLabel.snp.makeConstraints { make in
             make.top.equalTo(image.snp.bottom).offset(-5)
-            make.leading.equalToSuperview().offset(17)
+            make.leading.trailing.equalToSuperview().inset(17)
         }
         typeLabel.snp.makeConstraints { make in
             make.top.equalTo(nameLabel.snp.bottom)
-            make.leading.equalToSuperview().offset(17)
+            make.leading.trailing.equalToSuperview().inset(17)
         }
         detailLabel.snp.makeConstraints { make in
             make.top.equalTo(typeLabel.snp.bottom)
@@ -81,11 +89,10 @@ class FoodCollectionViewCell: UICollectionViewCell {
         
     }
     
-    func updateData(food: Food) {
-        image.image = UIImage(named: food.image)
-        nameLabel.text = food.name
-        typeLabel.text = food.text
-        detailLabel.text = food.detail
+    func updateData(food: Product) {
+        image.kf.setImage(with: URL(string: food.thumbnail!))
+        nameLabel.text = food.title
+        typeLabel.text = food.brand
     }
     
     required init?(coder: NSCoder) {
