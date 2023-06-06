@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5200370A2A29FFE100393823 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520037052A29FFE000393823 /* Poppins-Bold.ttf */; };
+		5200370B2A29FFE100393823 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520037062A29FFE000393823 /* Poppins-Light.ttf */; };
+		5200370C2A29FFE100393823 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520037072A29FFE000393823 /* Poppins-Regular.ttf */; };
+		5200370D2A29FFE100393823 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520037082A29FFE100393823 /* Poppins-SemiBold.ttf */; };
+		5200370E2A29FFE100393823 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 520037092A29FFE100393823 /* Poppins-Medium.ttf */; };
+		520037362A2B270A00393823 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520037352A2B270A00393823 /* FoodCollectionViewCell.swift */; };
+		5200373B2A2B40D700393823 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5200373A2A2B40D700393823 /* SnapKit */; };
+		527A7B802A2EA01E00DA3603 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A7B7F2A2EA01E00DA3603 /* SearchViewController.swift */; };
+		527A7B832A2EA15C00DA3603 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A7B822A2EA15C00DA3603 /* Food.swift */; };
+		527A7B852A2EA17800DA3603 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A7B842A2EA17800DA3603 /* Section.swift */; };
+		52BC41E02A2F1AD60020CBB6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 52BC41DF2A2F1AD60020CBB6 /* Kingfisher */; };
+		52CFB6752A2E48D9001490C5 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFB6742A2E48D9001490C5 /* SectionViewController.swift */; };
+		52CFB6772A2E5CB4001490C5 /* SectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CFB6762A2E5CB4001490C5 /* SectionCollectionViewCell.swift */; };
 		52F1C63D2A2843BD00440CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1C63C2A2843BD00440CE4 /* AppDelegate.swift */; };
 		52F1C63F2A2843BD00440CE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1C63E2A2843BD00440CE4 /* SceneDelegate.swift */; };
 		52F1C6412A2843BD00440CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1C6402A2843BD00440CE4 /* ViewController.swift */; };
 		52F1C6442A2843BD00440CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F1C6422A2843BD00440CE4 /* Main.storyboard */; };
 		52F1C6462A2843BF00440CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F1C6452A2843BF00440CE4 /* Assets.xcassets */; };
 		52F1C6492A2843BF00440CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F1C6472A2843BF00440CE4 /* LaunchScreen.storyboard */; };
+		52F1C6512A286E7F00440CE4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1C6502A286E7F00440CE4 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520037052A29FFE000393823 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		520037062A29FFE000393823 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		520037072A29FFE000393823 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		520037082A29FFE100393823 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		520037092A29FFE100393823 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		520037352A2B270A00393823 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		527A7B7F2A2EA01E00DA3603 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		527A7B822A2EA15C00DA3603 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		527A7B842A2EA17800DA3603 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		52CFB6742A2E48D9001490C5 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		52CFB6762A2E5CB4001490C5 /* SectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		52F1C6392A2843BD00440CE4 /* GEEKS-HomeWork-6-M4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GEEKS-HomeWork-6-M4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F1C63C2A2843BD00440CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52F1C63E2A2843BD00440CE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,7 @@
 		52F1C6452A2843BF00440CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F1C6482A2843BF00440CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F1C64A2A2843BF00440CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F1C6502A286E7F00440CE4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +57,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BC41E02A2F1AD60020CBB6 /* Kingfisher in Frameworks */,
+				5200373B2A2B40D700393823 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		520037042A29FFD500393823 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				520037052A29FFE000393823 /* Poppins-Bold.ttf */,
+				520037062A29FFE000393823 /* Poppins-Light.ttf */,
+				520037092A29FFE100393823 /* Poppins-Medium.ttf */,
+				520037072A29FFE000393823 /* Poppins-Regular.ttf */,
+				520037082A29FFE100393823 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		520037372A2B27A100393823 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				520037382A2B27B000393823 /* Cell */,
+				52F1C6402A2843BD00440CE4 /* ViewController.swift */,
+				52F1C6502A286E7F00440CE4 /* TabBarViewController.swift */,
+				527A7B7F2A2EA01E00DA3603 /* SearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		520037382A2B27B000393823 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				520037352A2B270A00393823 /* FoodCollectionViewCell.swift */,
+				52CFB6762A2E5CB4001490C5 /* SectionCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		527A7B812A2EA14B00DA3603 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				527A7B822A2EA15C00DA3603 /* Food.swift */,
+				527A7B842A2EA17800DA3603 /* Section.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52BC41DD2A2F18D50020CBB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52F1C6422A2843BD00440CE4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		52F1C6302A2843BD00440CE4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +135,14 @@
 			children = (
 				52F1C63C2A2843BD00440CE4 /* AppDelegate.swift */,
 				52F1C63E2A2843BD00440CE4 /* SceneDelegate.swift */,
-				52F1C6402A2843BD00440CE4 /* ViewController.swift */,
-				52F1C6422A2843BD00440CE4 /* Main.storyboard */,
+				520037042A29FFD500393823 /* Fonts */,
+				527A7B812A2EA14B00DA3603 /* Model */,
+				520037372A2B27A100393823 /* Controller */,
+				52BC41DD2A2F18D50020CBB6 /* View */,
 				52F1C6452A2843BF00440CE4 /* Assets.xcassets */,
 				52F1C6472A2843BF00440CE4 /* LaunchScreen.storyboard */,
 				52F1C64A2A2843BF00440CE4 /* Info.plist */,
+				52CFB6742A2E48D9001490C5 /* SectionViewController.swift */,
 			);
 			path = "GEEKS-HomeWork-6-M4";
 			sourceTree = "<group>";
@@ -83,6 +163,10 @@
 			dependencies = (
 			);
 			name = "GEEKS-HomeWork-6-M4";
+			packageProductDependencies = (
+				5200373A2A2B40D700393823 /* SnapKit */,
+				52BC41DF2A2F1AD60020CBB6 /* Kingfisher */,
+			);
 			productName = "GEEKS-HomeWork-6-M4";
 			productReference = 52F1C6392A2843BD00440CE4 /* GEEKS-HomeWork-6-M4.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +195,10 @@
 				Base,
 			);
 			mainGroup = 52F1C6302A2843BD00440CE4;
+			packageReferences = (
+				520037392A2B40D700393823 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				52BC41DE2A2F1AD60020CBB6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 52F1C63A2A2843BD00440CE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +214,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F1C6492A2843BF00440CE4 /* LaunchScreen.storyboard in Resources */,
+				5200370B2A29FFE100393823 /* Poppins-Light.ttf in Resources */,
+				5200370C2A29FFE100393823 /* Poppins-Regular.ttf in Resources */,
 				52F1C6462A2843BF00440CE4 /* Assets.xcassets in Resources */,
+				5200370A2A29FFE100393823 /* Poppins-Bold.ttf in Resources */,
+				5200370D2A29FFE100393823 /* Poppins-SemiBold.ttf in Resources */,
+				5200370E2A29FFE100393823 /* Poppins-Medium.ttf in Resources */,
 				52F1C6442A2843BD00440CE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CFB6752A2E48D9001490C5 /* SectionViewController.swift in Sources */,
+				52CFB6772A2E5CB4001490C5 /* SectionCollectionViewCell.swift in Sources */,
+				527A7B802A2EA01E00DA3603 /* SearchViewController.swift in Sources */,
+				520037362A2B270A00393823 /* FoodCollectionViewCell.swift in Sources */,
+				52F1C6512A286E7F00440CE4 /* TabBarViewController.swift in Sources */,
+				527A7B852A2EA17800DA3603 /* Section.swift in Sources */,
+				527A7B832A2EA15C00DA3603 /* Food.swift in Sources */,
 				52F1C6412A2843BD00440CE4 /* ViewController.swift in Sources */,
 				52F1C63D2A2843BD00440CE4 /* AppDelegate.swift in Sources */,
 				52F1C63F2A2843BD00440CE4 /* SceneDelegate.swift in Sources */,
@@ -294,6 +394,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +422,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +458,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		520037392A2B40D700393823 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		52BC41DE2A2F1AD60020CBB6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5200373A2A2B40D700393823 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 520037392A2B40D700393823 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		52BC41DF2A2F1AD60020CBB6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52BC41DE2A2F1AD60020CBB6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52F1C6312A2843BD00440CE4 /* Project object */;
 }
